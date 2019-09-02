@@ -3,30 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>Image Gallery</title>
-        <link rel="stylesheet" href="styles/layout.css" media="screen" />
+        <script type="text/javascript" src="scripts/showPic.js"></script>
+        <link rel="stylesheet" href="styles/layout.css" type="text/css" media="screen" />
     </head>
     <body>
         <h1>Snapshot</h1>
-        <ul>
+        <ul id="imagegallery">
             <li>
-                <a href="images/yao1.jpg" onclick="showPic(this); return false;" title="image1">image1</a>
+                <a href="images/yao1.jpg" title="image1">
+                    image1
+                </a>
             </li>
             <li>
-                <a href="images/yao2.jfif"  onclick="showPic(this); return false;" title="image2">image2</a>
+                <a href="images/yao2.jfif" title="image2">
+                    image2
+                </a>
             </li>
             <li>
-                <a href="images/yao3.jpg"  onclick="showPic(this); return false;"  title="image3">image3</a>
+                <a href="images/yao3.jpg"  title="image3">
+                    image3
+                </a>
             </li>
             <li>
-                <a href="images/yao4.jfif"  onclick="showPic(this); return false;"  title="image4">image4</a>   
+                <a href="images/yao4.jfif" title="image4">
+                    image4
+                </a>   
             </li>
             <li>
-                <a href="images/yao5.jpg"  onclick="showPic(this); return false;"  title="image5">image5</a>
+                <a href="images/yao5.jpg"  title="image5">
+                    image5
+                </a>
             </li>
         </ul>
-        
         <img id="placeholder" src="images/不知火1.jpg" alt="my image gallery">
         <p id="description">Choose a image</p>
-        <script type="text/javascript" src="scripts/showPic.js"></script>
+        
     </body>
 </html>

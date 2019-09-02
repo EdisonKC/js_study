@@ -27,3 +27,6 @@ img {
     display: block;
     clear: both
 }
+#imagegallery {
+    list-style: inline;
+}
